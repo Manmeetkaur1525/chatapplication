@@ -66,6 +66,7 @@ form .name_details .field:last-child{
 .form_signup form .field
 {
     display: flex;
+    position: relative;
     flex-direction: column;
     margin-bottom: 10px;
 
@@ -116,15 +117,16 @@ font-size: 17px;
 }
 .form_signup .link a:hover{
     text-decoration: underline;
-
+    
 
 }
+
 .form_signup form .field i{
     position: absolute;
     right: 15px;
     color: #ccc;
     top: 70%;
     transform: translateY(-50%);
-    cursor: pointer
-    ;
+    cursor: pointer;
 }
+
