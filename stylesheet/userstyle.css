@@ -23,3 +23,41 @@ body{
                 0 32px 64px -48px rgba(0, 0, 0, 0.5);
 
 }
+
+ .users{
+    padding: 25px 30px;
+
+ }
+ .users header
+ {
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    border-bottom: 1px solid #e6e6e6 ;
+ }
+ .wrapper img{
+    object-fit: cover;
+    border-radius: 50%;
+ }
+ .users header .content{
+    display: flex;
+
+ }
+.users header .content img{
+    height: 50px;
+    width: 50px;
+}
+.users header .details{
+  margin-left: 15px;
+
+}
+.users header .details span{
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.users header .logout{
+    color: #fff;
+    
+    background: #333;
+}
