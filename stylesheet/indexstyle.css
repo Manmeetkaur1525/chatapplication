@@ -121,10 +121,15 @@ font-size: 17px;
 }
 .form_signup form .field i{
     position: absolute;
-    right: 15px;
+    right: 200px;
     color: #ccc;
-    top: 70%;
+    top: 61.5%;
     transform: translateY(-50%);
     cursor: pointer
     ;
 }
+.form_signup form .field i.active::before{
+    color: #333;
+    content: "\f070";
+}
+

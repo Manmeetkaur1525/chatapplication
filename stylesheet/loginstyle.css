@@ -129,4 +129,8 @@ font-size: 17px;
     transform: translateY(-50%);
     cursor: pointer;
 }
+.form_signup form .field i.active::before{
+    content: "\f070";
+    color: #333;
+}
 
